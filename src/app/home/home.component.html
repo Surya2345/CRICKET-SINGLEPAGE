@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/src/app/fontawesome-free-5.15.4-web/css/all.css">
+  <script>
+
+    var countDownDate = new Date("Oct 29, 2021 00:00:00").getTime();
+    var x = setInterval(function(){
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("days").innerHTML= days;
+      document.getElementById("hours").innerHTML= hours;
+      document.getElementById("minutes").innerHTML= minutes;
+      document.getElementById("seconds").innerHTML= seconds;
+
+    },1000);
+
+  </script>
+</head>
+<body>
+
+  <div class="hero">
+    <img src="assets\images\land.jpg" width="1520" height="700">
+  </div>
+
+  <div class="timer">
+    <h1>Jun 30, 2020 / 8:00 pm / New York</h1>
+    <h2>National leagues 2020 series begins</h2>
+
+    <div class="launch-time">
+      <div>
+        <p id="days">00</p>
+      <span>Days</span>
+      </div>
+
+      <div>
+        <p id="hours">00</p>
+      <span>Hours</span>
+      </div>
+
+      <div>
+        <p id="minutes">00</p>
+      <span>Minutes</span>
+      </div>
+
+      <div>
+        <p id="seconds">00</p>
+      <span>Seconds</span>
+      </div>
+
+    </div>
+
+    <div class="btn">
+      <button class="hbtn">BOOK TICKET'S</button>
+    </div>
+  </div>
+
+
+  <section class="parts">
+
+    <div class="part1">
+      <h3><i class="fas fa-bolt"></i>LATEST RESULT'S</h3>
+
+      <table>
+
+        <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+        <td>$100</td>
+        </tr>
+        <tr>
+        <td>Lois</td>
+        <td>Griffin</td>
+        <td>$150</td>
+        </tr>
+        <tr>
+        <td>Joe</td>
+        <td>Swanson</td>
+        <td>$300</td>
+        </tr>
+        <tr>
+        <td>Cleveland</td>
+        <td>Brown</td>
+        <td>$250</td>
+        </tr>
+
+        <tr>
+          <td>Peter</td>
+          <td>Griffin</td>
+          <td>$100</td>
+          </tr>
+          <tr>
+          <td>Lois</td>
+          <td>Griffin</td>
+          <td>$150</td>
+          </tr>
+          <tr>
+          <td>Joe</td>
+          <td>Swanson</td>
+          <td>$300</td>
+          </tr>
+          <tr>
+          <td>Cleveland</td>
+          <td>Brown</td>
+          <td>$250</td>
+          </tr>
+
+          <tr>
+            <td>Peter</td>
+            <td>Griffin</td>
+            <td>$100</td>
+            </tr>
+            <tr>
+            <td>Lois</td>
+            <td>Griffin</td>
+            <td>$150</td>
+            </tr>
+            <tr>
+            <td>Joe</td>
+            <td>Swanson</td>
+            <td>$300</td>
+            </tr>
+            <tr>
+            <td>Cleveland</td>
+            <td>Brown</td>
+            <td>$250</td>
+            </tr>
+
+      </table>
+
+    </div>
+
+    <div class="part2">
+    <h4><i class="fas fa-bolt"></i>TODAY'S CRICKET MATCHE'S</h4>
+    <img src="assets\images\match.png" width="760px">
+    </div>
+
+  </section>
+
+  <section class="sec1">
+
+      <div class="playerh">
+        <h5>FIRST TEAM</h5>
+        <div class="playerb">
+          <a href="#" class="plbtn">JOIN OUR TEAM</a>
+        </div>
+      </div>
+
+      <div class="row row-cols-4" id="c">
+
+        <div class="col">
+          <div class="imc">
+              <img src="assets/images/dhoni.png" class="card-img-top" alt="dhoni">
+              <div class="card-body">
+                <img src="assets/images/1.png" alt="">
+              </div>
+            </div>
+        </div>
+
+        <div class="col">
+          <div class="imc">
+              <img src="assets/images/rohit.png" class="card-img-top" alt="dhoni">
+              <div class="card-body">
+                <img src="assets/images/2.png" alt="">
+
+              </div>
+            </div>
+        </div>
+
+        <div class="col">
+          <div class="imc">
+              <img src="assets/images/virat.png" class="card-img-top" alt="dhoni">
+              <div class="card-body">
+                <img src="assets/images/3.png" alt="">
+
+              </div>
+            </div>
+        </div>
+
+        <div class="col">
+          <div class="imc">
+              <img src="assets/images/mithali.png" class="card-img-top" alt="dhoni">
+              <div class="card-body">
+                <img src="assets/images/4.png" alt="">
+
+              </div>
+            </div>
+        </div>
+      </div>
+
+  </section>
+
+  <section class="spad">
+    <mat-tab-group>
+      <mat-tab label="First"></mat-tab>
+      <mat-tab label="Second"> Content 2 </mat-tab>
+      <mat-tab label="Third"> Content 3 </mat-tab>
+    </mat-tab-group>
+
+  </section>
+
+
+  <section class="last">
+    <div class="subsribe">
+      <div class="img1">
+        <img src="assets/images/join.png" alt="" width="100%" >
+      </div>
+
+      <div class="content">
+        <p class="lpara1">JOIN OUR TEAM</p>
+      </div>
+      <div>
+        <button class="lbtn">REGISTER</button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+</body>
+</html>
+

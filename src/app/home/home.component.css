@@ -1,0 +1,133 @@
+
+/* starting */
+*{
+  font-family: roboto;
+}
+h1,h2{
+  color: white;
+}
+h2{
+  font-size: 50px;
+  margin-left: -220px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.btn{
+  margin-top: 3%;
+}
+.timer{
+  margin-top: -35%;
+  margin-left: 35%;
+
+}
+.hbtn{
+  margin-left: 90px;
+  background-color: red;
+  padding: 15px;
+  font-weight: 700;
+  border: none;
+  letter-spacing: 2px;
+}
+.launch-time{
+  display: flex;
+  color: #fff;
+}
+.launch-time div{
+  flex-basis: 100px;
+}
+.launch-time div p{
+  font-size: 60px;
+  margin-bottom: -14px;
+}
+.parts{
+  margin-top: 290px;
+  margin-left: 100px;
+}
+table {
+  border-collapse: collapse;
+  min-width: 45%;
+  font-family: roboto;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(odd){
+  background-color: rgba(47, 44, 44, 1);
+  color: rgba(196, 196, 196, 1);
+}
+
+tr:nth-child(even) {
+  color: #fff;
+  background-color: rgba(33, 30, 30, 1);
+  font-weight: bolder;
+}
+.part1{
+  margin-left: -45px;
+}
+.part2{
+  width: 50%;
+  margin-top: -520.5px;
+  float: right;
+  margin-right: 96px;
+}
+.card-body{
+  margin-left: 15px;
+  margin-top: -109px;
+}
+.sec1{
+  background-color: rgb(39, 39, 39);
+  margin-top: 160px;
+}
+.imc{
+  padding-top: 20%;
+}
+h3, h4{
+  font-size: 30px;
+  font-weight: normal;
+  font-family: roboto;
+}
+#c{
+  margin-left: 150px;
+}
+.playerh{
+  padding-top: 3%;
+  margin-left: 100px;
+}
+.playerb{
+  margin-right: 70px;
+}
+.plbtn{
+  border: 2px solid red;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  word-spacing: 3px;
+  font-family: roboto;
+  float: right;
+  margin-top: -3%;
+}
+h5{
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+}
+.content{
+  margin-top: -27%;
+  font-size: 80px;
+  font-weight: bolder;
+  color: #fff;
+  margin-left: 5%;
+}
+.lbtn{
+  color: red;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-left: 17%;
+  margin-top: 3%;
+  font-weight: 500;
+}

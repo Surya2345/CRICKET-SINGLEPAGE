@@ -1,0 +1,46 @@
+*{
+  font-family: popins;
+}
+.nav1{
+  background-color: rgb(17, 17, 17);
+}
+.navb{
+  flex: 1 1 auto;
+}
+.mat-elevation-z6{
+  background-color: rgb(51, 45, 46);
+  height: 50px;
+}
+.signbtn{
+  background-color: white;
+}
+.bt{
+  color: white;
+  font-family:Rockwell Condensed;
+  font-size: 60px;
+  margin-top: 55px;
+  margin-left: -430px;
+}
+a:hover{
+  color: red;
+  text-decoration: none;
+
+}
+.sb{
+  color: black;
+  border-radius: 30px;
+}
+a{
+    color: white;
+    font-family:popins;
+}
+.get{
+  color: red;
+  float: right;
+  font-weight: bolder;
+  font-size: 30px;
+  text-decoration: none;
+}
+.get:hover{
+  color: #fff;
+}
